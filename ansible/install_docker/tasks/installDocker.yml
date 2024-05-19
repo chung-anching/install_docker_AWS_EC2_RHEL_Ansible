@@ -1,0 +1,14 @@
+- name: Install Docker
+  yum:
+    name: docker-ce
+    state: latest
+  # package:
+  #   name: docker-ce
+  #   state: latest
+
+- name: Start Docker service
+  service:
+    name: docker
+    state: started
+    enabled: yes
+
