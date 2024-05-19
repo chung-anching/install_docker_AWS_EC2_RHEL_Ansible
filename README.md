@@ -1,2 +1,12 @@
 # install_docker_AWS_EC2_RHEL_Ansible
 install docker on AWS EC2 RHEL using Ansible playbook
+
+### 1. Create a directory
+$ mkdir ansible && cd ansible
+
+### 2. Create a role
+$ <<ansible-galaxy init install_docker>>
+
+in inventory file, :
+[webserver]
+wordpress ansible_host=3.238.27.181 ansible_user='ec2-user' ansible_ssh_private_key_file=/Users/zhonganqing/.ssh/wca4a-0514.pem
