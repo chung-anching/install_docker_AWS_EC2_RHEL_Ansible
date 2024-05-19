@@ -12,6 +12,7 @@ $ ansible-galaxy init install_docker，會長得像這樣：
 
 ### 3. Write yaml files
 把上面附件的檔案下載下來匯入相對應的位置
+
 $ cd tasks/
 在task底下新增五個yml file:
 installPackages.yml
