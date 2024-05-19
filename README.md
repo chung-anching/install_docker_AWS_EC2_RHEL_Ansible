@@ -15,10 +15,10 @@ $ ansible-galaxy init install_docker，會長得像這樣：
 
 $ cd tasks/
 在task底下新增五個yml file:
-installPackages.yml
-addRepo.yml
-installDocker.yml 
-addUser.yml
+installPackages.yml,
+addRepo.yml,
+installDocker.yml,
+addUser.yml,
 main.yml
 
 在 vars 底下新增一個yml file:
