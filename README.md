@@ -1,3 +1,5 @@
+參考： https://medium.com/@knoldus/how-to-install-docker-on-rhel-using-ansible-role-62728c098351
+
 # install_docker_AWS_EC2_RHEL_Ansible
 install docker on AWS EC2 RHEL using Ansible playbook
 
@@ -5,7 +7,8 @@ install docker on AWS EC2 RHEL using Ansible playbook
 $ mkdir ansible && cd ansible
 
 ### 2. Create a role
-$ <<ansible-galaxy init install_docker>>
+$ ansible-galaxy init install_docker
+會長得像這樣：
 
 in inventory file, :
 [webserver]
