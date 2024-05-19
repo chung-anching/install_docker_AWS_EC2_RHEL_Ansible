@@ -9,7 +9,7 @@ $ mkdir ansible && cd ansible
 ### 2. Create a role
 $ ansible-galaxy init install_docker
 會長得像這樣：
-<img src="images/截圖 2024-05-19 上午10.31.02.png" width="70%" height="70%">
+<img src="image/截圖 2024-05-19 上午10.31.02.png" width="70%" height="70%">
 
 in inventory file, :
 [webserver]
